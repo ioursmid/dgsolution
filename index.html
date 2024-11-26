@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>DGSolution - Landing Pages Premium</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <meta name="description" content="DGSolution - Criação de Landing Pages Premium e Otimizadas para Conversão. Transforme visitantes em clientes com nossas landing pages profissionais.">
+    <meta name="keywords" content="landing page, web design, conversão, marketing digital, sites responsivos">
+    <meta name="author" content="DGSolution">
+    <meta property="og:title" content="DGSolution - Landing Pages Premium">
+    <meta property="og:description" content="Transforme visitantes em clientes com landing pages otimizadas e profissionais.">
+    <meta property="og:image" content="assets/og-image.jpg">
+    <meta property="og:url" content="https://seu-site.com">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <!-- Adicione no head, após o Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <!-- Adicione esta meta tag para prevenir o zoom no iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="70">
+    <!-- Navbar -->
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <span class="text-primary">DG</span>Solution
+            </a>
+            <div class="theme-switch-wrapper ms-3">
+                <label class="theme-switch" for="darkModeToggle">
+                    <input type="checkbox" id="darkModeToggle" />
+                    <div class="slider round">
+                        <i class="bi bi-sun-fill light-icon"></i>
+                        <i class="bi bi-moon-fill dark-icon"></i>
+                    </div>
+                </label>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfólio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#precos">Preços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+                <button class="btn btn-primary ms-lg-3" data-bs-toggle="modal" data-bs-target="#contatoModal">
+                    Solicitar Orçamento
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero vh-100 d-flex align-items-center">
+        <div class="hero-particles" id="particles-js"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <span class="badge bg-primary mb-3">Desenvolvimento Web Premium</span>
+                    <h1 class="display-4 fw-bold mb-4">Landing Pages que <span class="text-primary typed-text"></span></h1>
+                    <p class="lead mb-4">Transforme visitantes em clientes com landing pages otimizadas e profissionais. Design moderno e alta performance para maximizar seus resultados.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#portfolio" class="btn btn-primary btn-lg">
+                            <i class="bi bi-collection me-2"></i>Ver Portfólio
+                        </a>
+                        <button class="btn btn-outline-light btn-lg" data-bs-toggle="modal" data-bs-target="#contatoModal">
+                            <i class="bi bi-whatsapp me-2"></i>Falar Agora
+                        </button>
+                    </div>
+                    <div class="hero-stats mt-5">
+                        <div class="row g-4">
+                            <div class="col-4">
+                                <div class="stat-item">
+                                    <h3 class="mb-2">100+</h3>
+                                    <p class="mb-0">Projetos</p>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="stat-item">
+                                    <h3 class="mb-2">98%</h3>
+                                    <p class="mb-0">Satisfação</p>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="stat-item">
+                                    <h3 class="mb-2">24/7</h3>
+                                    <p class="mb-0">Suporte</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-6 mx-auto">
+                    <h2 class="fw-bold">Por que nos escolher?</h2>
+                    <p class="text-muted">Tecnologia e design unidos para maximizar resultados</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4" data-aos="fade-up">
+                    <div class="feature-card p-4">
+                        <div class="feature-icon mb-4">
+                            <i class="bi bi-rocket-takeoff"></i>
+                        </div>
+                        <h4 class="mb-3">Alta Performance</h4>
+                        <p class="text-muted mb-0">Páginas otimizadas que carregam em menos de 2 segundos, garantindo a melhor experiência para seus visitantes.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-card p-4">
+                        <div class="feature-icon mb-4">
+                            <i class="bi bi-phone"></i>
+                        </div>
+                        <h4 class="mb-3">100% Responsivo</h4>
+                        <p class="text-muted mb-0">Design adaptativo que funciona perfeitamente em qualquer dispositivo ou tamanho de tela.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-card p-4">
+                        <div class="feature-icon mb-4">
+                            <i class="bi bi-graph-up-arrow"></i>
+                        </div>
+                        <h4 class="mb-3">Otimizado para Conversão</h4>
+                        <p class="text-muted mb-0">Elementos estrategicamente posicionados para maximizar suas taxas de conversão.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section id="servicos" class="py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-6 mx-auto">
+                    <h2 class="fw-bold">Nossos Serviços</h2>
+                    <p class="text-muted">Soluções completas para sua presença digital</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <!-- Landing Pages -->
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon mb-4">
+                                <i class="bi bi-window-desktop"></i>
+                            </div>
+                            <h5 class="card-title mb-3">Landing Pages Premium</h5>
+                            <p class="card-text">Páginas otimizadas para conversão com design exclusivo e responsivo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SEO -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon mb-4">
+                                <i class="bi bi-graph-up"></i>
+                            </div>
+                            <h5 class="card-title mb-3">Otimização SEO</h5>
+                            <p class="card-text">Melhore seu posicionamento nos mecanismos de busca e aumente sua visibilidade.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Design Responsivo -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon mb-4">
+                                <i class="bi bi-phone"></i>
+                            </div>
+                            <h5 class="card-title mb-3">Design Responsivo</h5>
+                            <p class="card-text">Layout adaptativo para todos os dispositivos, garantindo a melhor experiência.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Integrações -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon mb-4">
+                                <i class="bi bi-plug"></i>
+                            </div>
+                            <h5 class="card-title mb-3">Integrações</h5>
+                            <p class="card-text">Conexão com CRM, e-mail marketing, WhatsApp e outras ferramentas essenciais.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Páginas Institucionais -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon mb-4">
+                                <i class="bi bi-building"></i>
+                            </div>
+                            <h5 class="card-title mb-3">Páginas Institucionais</h5>
+                            <p class="card-text">Sites profissionais para apresentar sua empresa e fortalecer sua marca.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Manutenção -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon mb-4">
+                                <i class="bi bi-tools"></i>
+                            </div>
+                            <h5 class="card-title mb-3">Manutenção</h5>
+                            <p class="card-text">Suporte contínuo, atualizações e melhorias para seu site.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- E-commerce -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon mb-4">
+                                <i class="bi bi-cart3"></i>
+                            </div>
+                            <h5 class="card-title mb-3">E-commerce</h5>
+                            <p class="card-text">Lojas virtuais completas e otimizadas para vendas online.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Marketing Digital -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="700">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon mb-4">
+                                <i class="bi bi-megaphone"></i>
+                            </div>
+                            <h5 class="card-title mb-3">Marketing Digital</h5>
+                            <p class="card-text">Estratégias completas para atrair e converter mais clientes.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hospedagem -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="800">
+                    <div class="card service-card h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon mb-4">
+                                <i class="bi bi-hdd-rack"></i>
+                            </div>
+                            <h5 class="card-title mb-3">Hospedagem</h5>
+                            <p class="card-text">Serviço de hospedagem rápido e seguro para seu site.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Números/Estatísticas Section -->
+    <section class="numbers-section py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row g-4 text-center">
+                <div class="col-md-3" data-aos="fade-up">
+                    <div class="number-item">
+                        <h2 class="display-4 fw-bold mb-2">
+                            <span class="counter" data-target="500">0</span>+
+                        </h2>
+                        <p class="mb-0">Projetos Entregues</p>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="number-item">
+                        <h2 class="display-4 fw-bold mb-2">
+                            <span class="counter" data-target="98">0</span>%
+                        </h2>
+                        <p class="mb-0">Clientes Satisfeitos</p>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="number-item">
+                        <h2 class="display-4 fw-bold mb-2">
+                            <span class="counter" data-target="150">0</span>%
+                        </h2>
+                        <p class="mb-0">Aumento em Conversões</p>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="number-item">
+                        <h2 class="display-4 fw-bold mb-2">
+                            <span class="counter" data-target="15">0</span>k
+                        </h2>
+                        <p class="mb-0">Leads Gerados</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfólio Section -->
+    <section id="portfolio" class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-6 mx-auto">
+                    <h2 class="fw-bold">Nosso Portfólio</h2>
+                    <p class="text-muted">Conheça alguns dos nossos projetos de sucesso</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <!-- Projeto 1 - Alfa Prime -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up">
+                    <div class="portfolio-item">
+                        <img src="assets/alfa-prime.png" alt="Alfa Prime" class="img-fluid rounded-3">
+                        <div class="portfolio-overlay">
+                            <h5>Alfa Prime</h5>
+                            <p>Landing page para vendas online</p>
+                            <a href="https://ioursmid.github.io/alfaprime" class="btn btn-light btn-sm" target="_blank">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projeto 2 - Dinâmica Iphones -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-item">
+                        <img src="assets/dinamicas-iphones.png" alt="Dinâmica Iphones" class="img-fluid rounded-3">
+                        <div class="portfolio-overlay">
+                            <h5>Alfa Iphones</h5>
+                            <p>E-commerce de smartphones</p>
+                            <a href="https://www.dinamicasalfa.com/iphones" class="btn btn-light btn-sm" target="_blank">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projeto 3 - VIP Nutrition -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-item">
+                        <img src="assets/vip-nutrition.png" alt="VIP Nutrition" class="img-fluid rounded-3">
+                        <div class="portfolio-overlay">
+                            <h5>VIP Nutrition</h5>
+                            <p>Landing page de suplementos</p>
+                            <a href="https://ioursmid.github.io/vipnutrition/" class="btn btn-light btn-sm" target="_blank">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projeto 4 - Landing Page -->
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="portfolio-item">
+                        <img src="assets/dinamicas-landing.png" alt="Landing Page" class="img-fluid rounded-3">
+                        <div class="portfolio-overlay">
+                            <h5>Landing Page</h5>
+                            <p>Página de conversão</p>
+                            <a href="https://www.dinamicasalfa.com/landing/" class="btn btn-light btn-sm" target="_blank">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preços Section -->
+    <section id="precos" class="py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-6 mx-auto">
+                    <span class="badge bg-danger mb-3">Promoção de Fim de Ano</span>
+                    <h2 class="fw-bold">Landing Pages Premium</h2>
+                    <p class="text-muted">Preços promocionais por tempo limitado</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6" data-aos="fade-up">
+                    <div class="pricing-card text-center p-4">
+                        <div class="popular-badge">Oferta Especial</div>
+                        <h5 class="text-primary mb-4">Landing Page Premium</h5>
+                        <h2 class="display-4 fw-bold mb-2">A partir de</h2>
+                        <div class="price-tag mb-4">
+                            <span class="currency">R$</span>
+                            <span class="amount">299</span>
+                        </div>
+                        <p class="text-muted mb-4">Tudo que você precisa para começar a vender online</p>
+                        <ul class="list-unstyled mb-4">
+                            <li class="mb-3"><i class="bi bi-check2-circle text-primary me-2"></i>Design Responsivo</li>
+                            <li class="mb-3"><i class="bi bi-check2-circle text-primary me-2"></i>Otimização SEO</li>
+                            <li class="mb-3"><i class="bi bi-check2-circle text-primary me-2"></i>Integração WhatsApp</li>
+                            <li class="mb-3"><i class="bi bi-check2-circle text-primary me-2"></i>Entrega em 5 dias</li>
+                            <li class="mb-3"><i class="bi bi-check2-circle text-primary me-2"></i>Suporte 24/7</li>
+                        </ul>
+                        <button class="btn btn-primary w-100 py-3" data-bs-toggle="modal" data-bs-target="#contatoModal">
+                            <i class="bi bi-whatsapp me-2"></i>Solicitar Agora
+                        </button>
+                        <p class="mt-3 text-muted small">* Promoção válida até 31/12/2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-6 mx-auto">
+                    <h2 class="fw-bold">Perguntas Frequentes</h2>
+                    <p class="text-muted">Tire suas dúvidas sobre nossos serviços</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="accordion" id="faqAccordion">
+                        <!-- FAQ Item 1 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    Quanto tempo leva para criar uma landing page?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    O tempo de desenvolvimento varia de acordo com o plano escolhido e a complexidade do projeto. 
+                                    Nossos prazos variam de 5 a 15 dias úteis, garantindo qualidade e atenção aos detalhes.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FAQ Item 2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    As landing pages são otimizadas para SEO?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Sim! Todas as nossas landing pages são desenvolvidas seguindo as melhores práticas de SEO, 
+                                    incluindo otimização de imagens, meta tags e estrutura semântica.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FAQ Item 3 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    Posso solicitar alterações após a entrega?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Sim! Oferecemos um período de ajustes gratuitos de 15 dias após a entrega do projeto. 
+                                    Após esse período, alterações adicionais podem ser solicitadas mediante orçamento.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sistema de Notificações -->
+    <div class="notification-container" id="notificationContainer"></div>
+
+    <!-- Depoimentos Section -->
+    <section id="depoimentos" class="py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-6 mx-auto">
+                    <h2 class="fw-bold">O que nossos clientes dizem</h2>
+                    <p class="text-muted">Avaliações reais de clientes satisfeitos</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="testimonial-carousel" data-aos="fade-up">
+                        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <!-- Depoimento 1 -->
+                                <div class="carousel-item active">
+                                    <div class="testimonial-item text-center">
+                                        <div class="client-icon mb-4">
+                                            <i class="bi bi-person-circle display-4"></i>
+                                        </div>
+                                        <div class="rating mb-3">
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                        </div>
+                                        <p class="testimonial-text">"Serviço excepcional! A landing page superou todas as expectativas. As conversões aumentaram em 150% no primeiro mês!"</p>
+                                        <h5 class="mb-1">Ana Silva</h5>
+                                        <p class="text-muted mb-0">CEO, TechStart</p>
+                                    </div>
+                                </div>
+                                <!-- Depoimento 2 -->
+                                <div class="carousel-item">
+                                    <div class="testimonial-item text-center">
+                                        <div class="client-icon mb-4">
+                                            <i class="bi bi-person-circle display-4"></i>
+                                        </div>
+                                        <div class="rating mb-3">
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                            <i class="bi bi-star-fill text-warning"></i>
+                                        </div>
+                                        <p class="testimonial-text">"Profissionalismo e criatividade em cada detalhe. Recomendo fortemente! Melhor investimento que fiz para meu negócio."</p>
+                                        <h5 class="mb-1">Pedro Santos</h5>
+                                        <p class="text-muted mb-0">Marketing Director, InnovaCorp</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal de Orçamento -->
+    <div class="modal fade" id="contatoModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0 pb-0">
+                    <div class="modal-title-wrapper">
+                        <span class="badge bg-primary mb-2">Solicite um Orçamento</span>
+                        <h4 class="modal-title fw-bold">Vamos Começar seu Projeto?</h4>
+                        <p class="text-muted mb-0">Preencha o formulário abaixo e retornaremos em breve</p>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body pt-4">
+                    <form id="contatoForm" class="needs-validation" novalidate>
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="nome" placeholder="Seu nome" required>
+                                    <label for="nome">Nome completo</label>
+                                    <div class="invalid-feedback">Por favor, informe seu nome.</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="seu@email.com" required>
+                                    <label for="email">E-mail</label>
+                                    <div class="invalid-feedback">Por favor, informe um e-mail válido.</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="tel" class="form-control" id="telefone" placeholder="(00) 00000-0000" required>
+                                    <label for="telefone">WhatsApp</label>
+                                    <div class="invalid-feedback">Por favor, informe seu WhatsApp.</div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <select class="form-select" id="tipo_projeto" required>
+                                        <option value="">Selecione...</option>
+                                        <option value="landing_page">Landing Page</option>
+                                        <option value="institucional">Site Institucional</option>
+                                        <option value="ecommerce">E-commerce</option>
+                                        <option value="outro">Outro</option>
+                                    </select>
+                                    <label for="tipo_projeto">Tipo de Projeto</label>
+                                    <div class="invalid-feedback">Por favor, selecione o tipo de projeto.</div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" id="mensagem" style="height: 100px" placeholder="Sua mensagem" required></textarea>
+                                    <label for="mensagem">Descreva seu projeto</label>
+                                    <div class="invalid-feedback">Por favor, descreva seu projeto.</div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary w-100 btn-lg">
+                                    <i class="bi bi-whatsapp me-2"></i>Solicitar Orçamento
+                                </button>
+                                <p class="text-center text-muted small mt-3 mb-0">
+                                    Ao enviar, você será redirecionado para nosso WhatsApp
+                                </p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5517999754390" class="whatsapp-float" target="_blank" aria-label="Contato via WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+        <span class="whatsapp-text">Fale Conosco</span>
+    </a>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Carregando...</span>
+        </div>
+    </div>
+
+    <!-- Cookie Consent -->
+    <div id="cookieConsent" class="cookie-consent">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-9 col-md-8">
+                    <p class="mb-md-0">
+                        Este site utiliza cookies para melhorar sua experiência. Ao continuar navegando, você concorda com nossa política de privacidade.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-4 text-md-end">
+                    <button class="btn btn-primary btn-sm" id="acceptCookies">Entendi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Adicione um preloader mais moderno -->
+    <div id="preloader" class="preloader">
+        <div class="loader">
+            <svg viewBox="0 0 80 80">
+                <circle id="test" cx="40" cy="40" r="32"></circle>
+            </svg>
+        </div>
+        <div class="loader triangle">
+            <svg viewBox="0 0 86 80">
+                <polygon points="43 8 79 72 7 72"></polygon>
+            </svg>
+        </div>
+        <div class="loader">
+            <svg viewBox="0 0 80 80">
+                <rect x="8" y="8" width="64" height="64"></rect>
+            </svg>
+        </div>
+    </div>
+
+    <!-- Atualize o menu de navegação flutuante -->
+    <nav class="floating-nav d-none d-lg-block">
+        <ul>
+            <li>
+                <a href="#home" class="active" data-tooltip="Home">
+                    <i class="bi bi-house-door"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#features" data-tooltip="Features">
+                    <i class="bi bi-stars"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#servicos" data-tooltip="Serviços">
+                    <i class="bi bi-gear"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#portfolio" data-tooltip="Portfólio">
+                    <i class="bi bi-collection"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#tecnologias" data-tooltip="Tecnologias">
+                    <i class="bi bi-code-square"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#processo" data-tooltip="Processo">
+                    <i class="bi bi-diagram-3"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#precos" data-tooltip="Preços">
+                    <i class="bi bi-tag"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#depoimentos" data-tooltip="Depoimentos">
+                    <i class="bi bi-chat-quote"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#faq" data-tooltip="FAQ">
+                    <i class="bi bi-question-circle"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#contato" data-tooltip="Contato">
+                    <i class="bi bi-envelope"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Adicione um indicador de progresso de scroll -->
+    <div class="scroll-progress"></div>
+
+    <!-- Adicione uma seção de Processo de Trabalho -->
+    <section id="processo" class="py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-6 mx-auto">
+                    <span class="badge bg-primary mb-3">Nosso Processo</span>
+                    <h2 class="fw-bold">Como Trabalhamos</h2>
+                    <p class="text-muted">Metodologia eficiente para entregar resultados excepcionais</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-3" data-aos="fade-up">
+                    <div class="process-card">
+                        <div class="process-icon">
+                            <i class="bi bi-lightbulb"></i>
+                            <span class="process-number">01</span>
+                        </div>
+                        <h4>Planejamento</h4>
+                        <p>Análise detalhada do seu negócio e objetivos</p>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="process-card">
+                        <div class="process-icon">
+                            <i class="bi bi-pencil-square"></i>
+                            <span class="process-number">02</span>
+                        </div>
+                        <h4>Design</h4>
+                        <p>Criação do layout otimizado para conversão</p>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="process-card">
+                        <div class="process-icon">
+                            <i class="bi bi-code-slash"></i>
+                            <span class="process-number">03</span>
+                        </div>
+                        <h4>Desenvolvimento</h4>
+                        <p>Codificação com as melhores tecnologias</p>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="process-card">
+                        <div class="process-icon">
+                            <i class="bi bi-rocket-takeoff"></i>
+                            <span class="process-number">04</span>
+                        </div>
+                        <h4>Lançamento</h4>
+                        <p>Testes e publicação da sua landing page</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Atualize a seção de tecnologias -->
+    <section id="tecnologias" class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-6 mx-auto">
+                    <span class="badge bg-primary mb-3">Stack Tecnológica</span>
+                    <h2 class="fw-bold">Tecnologias que Utilizamos</h2>
+                    <p class="text-muted">As melhores ferramentas para o melhor resultado</p>
+                </div>
+            </div>
+            <div class="tech-grid" data-aos="fade-up">
+                <!-- Front-end -->
+                <div class="tech-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                    <span>HTML5</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                    <span>CSS3</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                    <span>JavaScript</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap">
+                    <span>Bootstrap</span>
+                </div>
+                <!-- Frameworks -->
+                <div class="tech-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                    <span>React</span>
+                </div>
+                <div class="tech-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                    <span>Node.js</span>
+                </div>
+                <!-- CMS -->
+                <div class="tech-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" alt="WordPress">
+                    <span>WordPress</span>
+                </div>
+                <!-- Design -->
+                <div class="tech-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
+                    <span>Figma</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-6 mx-auto">
+                    <span class="badge bg-primary mb-3">Fale Conosco</span>
+                    <h2 class="fw-bold">Entre em Contato</h2>
+                    <p class="text-muted">Estamos prontos para transformar sua ideia em realidade</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-5">
+                    <div class="contact-info p-4 rounded-3 bg-white shadow-sm">
+                        <div class="contact-item mb-4">
+                            <h5 class="fw-bold mb-3">
+                                <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                                Localização
+                            </h5>
+                            <p class="mb-0">Guaíra, SP</p>
+                        </div>
+                        <div class="contact-item mb-4">
+                            <h5 class="fw-bold mb-3">
+                                <i class="bi bi-whatsapp text-primary me-2"></i>
+                                WhatsApp
+                            </h5>
+                            <p class="mb-0">
+                                <a href="https://wa.me/5517999754390" class="text-decoration-none text-dark" target="_blank">
+                                    (17) 99975-4390
+                                </a>
+                            </p>
+                        </div>
+                        <div class="contact-item mb-4">
+                            <h5 class="fw-bold mb-3">
+                                <i class="bi bi-instagram text-primary me-2"></i>
+                                Instagram
+                            </h5>
+                            <p class="mb-0">
+                                <a href="https://instagram.com/douuglinha95" class="text-decoration-none text-dark" target="_blank">
+                                    @douuglinha95
+                                </a>
+                            </p>
+                        </div>
+                        <div class="contact-item">
+                            <h5 class="fw-bold mb-3">
+                                <i class="bi bi-clock-fill text-primary me-2"></i>
+                                Horário de Atendimento
+                            </h5>
+                            <p class="mb-0">Segunda à Sexta: 9h às 18h</p>
+                            <p class="mb-0">Sábado: 9h às 13h</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="contact-form p-4 rounded-3 bg-white shadow-sm">
+                        <form id="contactForm" class="needs-validation" novalidate>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="nome" class="form-label">Nome Completo</label>
+                                    <input type="text" class="form-control" id="nome" required>
+                                    <div class="invalid-feedback">Por favor, informe seu nome.</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label">E-mail</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                    <div class="invalid-feedback">Por favor, informe um e-mail válido.</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="telefone" class="form-label">Telefone/WhatsApp</label>
+                                    <input type="tel" class="form-control" id="telefone" required>
+                                    <div class="invalid-feedback">Por favor, informe seu telefone.</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="assunto" class="form-label">Assunto</label>
+                                    <select class="form-select" id="assunto" required>
+                                        <option value="">Selecione...</option>
+                                        <option value="orcamento">Orçamento</option>
+                                        <option value="duvida">Dúvida</option>
+                                        <option value="suporte">Suporte</option>
+                                    </select>
+                                    <div class="invalid-feedback">Por favor, selecione um assunto.</div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="mensagem" class="form-label">Mensagem</label>
+                                    <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+                                    <div class="invalid-feedback">Por favor, escreva sua mensagem.</div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary w-100 py-3">
+                                        <i class="bi bi-send me-2"></i>Enviar Mensagem
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Moderno Simplificado -->
+    <footer class="footer pt-5">
+        <div class="container">
+            <div class="row g-4 justify-content-center text-center">
+                <div class="col-lg-4">
+                    <div class="footer-brand mb-4">
+                        <h3 class="text-white"><span class="text-primary">DG</span>Solution</h3>
+                    </div>
+                    <p class="text-muted mb-4">Transformamos suas ideias em landing pages de alta conversão. Design moderno e performance excepcional para seu negócio.</p>
+                    <div class="social-links d-flex justify-content-center gap-3 mb-4">
+                        <a href="https://instagram.com/douuglinha95" target="_blank" aria-label="Instagram">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/5517999754390" target="_blank" aria-label="WhatsApp">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Bottom -->
+            <div class="footer-bottom py-4 border-top border-secondary mt-4">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <p class="mb-0 text-muted">&copy; 2024 DGSolution. Todos os direitos reservados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
